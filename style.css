@@ -1,0 +1,52 @@
+/* style.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .controls {
+    margin: 20px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  button, select, input[type=range] {
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  .bars-container {
+    display: flex;
+    align-items: flex-end;
+    height: 400px;
+    width: 90%;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+  }
+  
+  .bar {
+    background-color: #4CAF50;
+    margin: 1px;
+    width: 100%;
+    transition: height 0.2s ease, background-color 0.2s ease;
+  }
+  
+  .bar.compare {
+    background-color: #f39c12;
+  }
+  
+  .bar.swap {
+    background-color: #e74c3c;
+  }
+  
+  .bar.sorted {
+    background-color: #2ecc71;
+  }
+  
