@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sorting Algorithm Visualizer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="controls">
+    <label>Algorithm:</label>
+    <select id="algorithm">
+      <option value="bubble">Bubble Sort</option>
+      <option value="selection">Selection Sort</option>
+      <option value="insertion">Insertion Sort</option>
+    </select>
+
+    <label>Array Size:</label>
+    <input type="range" min="10" max="100" value="50" id="sizeSlider" />
+
+    <label>Speed:</label>
+    <input type="range" min="10" max="1000" value="200" id="speedSlider" />
+
+    <button id="generate">Generate Array</button>
+    <button id="start">Start Sorting</button>
+  </div>
+
+  <div class="bars-container" id="barsContainer"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
