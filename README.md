@@ -22,7 +22,8 @@ A responsive web application built using **HTML, CSS, and JavaScript** to visual
 
 ## Preview
 
-![Screenshot](screenshot.png) <!-- You can replace with an actual image if hosted -->
+![Screenshot](screenshot.png) <!-- You can replace wit![Screenshot 2025-05-02 020709](https://github.com/user-attachments/assets/79dc36be-bd2e-4fc6-8ee5-0f3af40b5921)
+h an actual image if hosted -->
 
 ## How to Run Locally
 
