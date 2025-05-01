@@ -23,6 +23,9 @@ A responsive web application built using **HTML, CSS, and JavaScript** to visual
 ## Preview
 
 ![Screenshot](https://github.com/user-attachments/assets/79dc36be-bd2e-4fc6-8ee5-0f3af40b5921)
+![Screenshot Unsorted](https://github.com/user-attachments/assets/daf5f0c4-44d7-4318-a9e6-0b28a00bf1cd)
+![Screenshot Sorted](https://github.com/user-attachments/assets/71ee9f56-6196-414f-b3dd-9ae7b327079c)
+
 
 ## How to Run Locally
 
